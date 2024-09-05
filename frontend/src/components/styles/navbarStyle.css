@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    position:sticky;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 4vw;
+    background-color: white;
+    
+  }
+
+  .menulist{
+
+    box-shadow: 0px 0px 2px 2px #f0f0f0;
+    border-radius:10px;
+    padding: 12px;
+    background-color: white;
+   
+    
+  }
+
+  .menuitem{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    box-shadow: 0px 0px 2px 2px #f0f0f0;
+    padding: 6px;
+    border-radius: 10px;
+    width:auto;
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navbar-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 30vw;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F73A48;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .navbar-notification {
+    position: relative;
+    margin-left: 1vw;
+  }
+  
+  .navbar-notification img {
+    height: 24px;
+  }
+  
