@@ -230,7 +230,7 @@ function JicaHome(){
                       <br></br>
                   </h1>
                   <div className="buttons">
-                      <a href="#abt" className="about-us" style={{backgroundColor:"#1d1d1d", color:"#ffffff"}}>Read More</a>
+                      <a href="/jica" className="about-us" style={{backgroundColor:"#1d1d1d", color:"#ffffff"}}>Read More</a>
                       
                   </div>
               </div>
@@ -264,8 +264,8 @@ function PartnerHome(){
                     <br />
                 </h1>
                 <div className="buttons">
-                    <a href="#abt" className="about-us" style={{backgroundColor:"White", color:"black", marginRight:"1vw"}}>Read More</a>
-                    <a href="#abt" className="about-us">See All MOUs </a>
+                    <a href="/Partners" className="about-us" style={{backgroundColor:"White", color:"black", marginRight:"1vw"}}>Read More</a>
+                    <a href="/visitors" className="about-us">See All MOUs </a>
                     
                 </div>
             </div>
@@ -358,7 +358,7 @@ function AdmissionHome(){
                     <br />
                 </div>
                 <div className="buttons" style={{fontSize:"1.5rem", fontWeight:"bold"}}>
-                    <a href="">View More</a>
+                    <a href="/intadm">View More</a>
                     
                 </div>
             </div>
@@ -390,7 +390,7 @@ function AdmissionHome(){
                     <br />
                 </h1>
                 <div className="buttons">
-                    <a href="#abt" className="about-us" style={{backgroundColor:"black", color:"white", marginRight:"1vw"}}>Read More</a>
+                    <a href="/visa" className="about-us" style={{backgroundColor:"black", color:"white", marginRight:"1vw"}}>Read More</a>
                     
                     
                 </div>
