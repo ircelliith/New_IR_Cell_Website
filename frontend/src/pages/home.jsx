@@ -91,7 +91,7 @@ function MainHome(){
                         <br />
                     </span>
                     
-                    <span className="highlight">International <br></br>Relations</span> <br />
+                    <span className="highlight" style={{fontSize:isMobile?"3rem":"5rem"}}>International <br></br>Relations</span> <br />
                     IIT Hyderabad
                 </h1>
                 <div className="buttons" style={{marginLeft:c}}>

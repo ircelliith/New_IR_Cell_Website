@@ -151,7 +151,7 @@ export default function MobileNavbar(){
    return(
     <nav className="navbar" style={{position:"sticky", alignItems:"center", justifyContent:"center", textAlign:"center", overflowX:"hidden"}}>
       <div style={{display:"flex", flexWrap:"wrap"}}>
-        <img src={iithlogo} style={{width:"25vw", height:"auto", marginRight:"28vw"}} alt="International Relations Cell Logo" />
+        <img src={iithlogo} style={{width:"35vw", height:"auto", marginRight:"28vw"}} alt="International Relations Cell Logo" />
         <br />
        <NavDrawer />
       </div>
