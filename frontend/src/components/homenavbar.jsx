@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/navbarStyle.css'; // Assuming you have a CSS file for styling
 import './../App.css';
 import ircellLogo from "./icons/ircellLogo.png";
+import iithlogo from "./icons/iithlogo.png";
 import notificationicon from "./icons/notificationicon.png";
 import { isMobile } from 'react-device-detect';
 
@@ -87,7 +88,7 @@ const NavBar = () => {
   return (
     <nav className="navbar" style={{position:"sticky"}}>
       <div className="navbar-logo">
-        <img src={ircellLogo} style={{width:"145px", height:"49px"}} alt="International Relations Cell Logo" />
+        <img src={iithlogo} style={{width:"10vw", height:"auto"}} alt="International Relations Cell Logo" />
         
       </div>
       <ul className="navbar-links">
@@ -109,8 +110,8 @@ const NavBar = () => {
             <MenuItem className='menuitem'><a href="/team">IR Cell & Team</a></MenuItem>
             <MenuItem className='menuitem'><a href="/lifeatiith">Life at IITH</a></MenuItem>
             <MenuItem className='menuitem'><a href="/downloads">Downloads</a></MenuItem>
-            <MenuItem className='menuitem'><a href="/opportunity">Opportunities</a></MenuItem>
-            <MenuItem className='menuitem'><a href="/collab">International <br></br>Collaboration <br></br>& Mobility</a></MenuItem>
+            {/* <MenuItem className='menuitem'><a href="/opportunity">Opportunities</a></MenuItem>
+            <MenuItem className='menuitem'><a href="/collab">International <br></br>Collaboration <br></br>& Mobility</a></MenuItem> */}
           </MenuList>
         </Menu>
         
@@ -129,7 +130,7 @@ const NavBar = () => {
           </MenuButton>
           <MenuList className='menulist'>
             <MenuItem className='menuitem'><a href="/Partners">Our Partners</a></MenuItem>
-            <MenuItem className='menuitem'><a href="/visitors">Visits</a></MenuItem>
+            <MenuItem className='menuitem'><a href="/visitors">Visitors</a></MenuItem>
           </MenuList>
         </Menu>
 

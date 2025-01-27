@@ -1,5 +1,6 @@
 import React from 'react';
 import ircellLogo from "./icons/ircellLogo.png";
+import iithlogo from "./icons/iithlogo.png";
 
 import {
     Drawer,
@@ -71,8 +72,8 @@ function NavDrawer(){
                 <a href="/team">-IR Cell & Team</a> <br />
                 <a href="/lifeatiith">-Life at IITH</a> <br />
                 <a href="/downloads">-Downloads</a> <br />
-                <a href="/opportunity">-Opportunities</a> <br />
-                <a href="/collab">-International Collaboration & Mobility</a>
+                {/* <a href="/opportunity">-Opportunities</a> <br />
+                <a href="/collab">-International Collaboration & Mobility</a> */}
                 <hr />
               </AccordionPanel>
             </AccordionItem>
@@ -150,7 +151,7 @@ export default function MobileNavbar(){
    return(
     <nav className="navbar" style={{position:"sticky", alignItems:"center", justifyContent:"center", textAlign:"center", overflowX:"hidden"}}>
       <div style={{display:"flex", flexWrap:"wrap"}}>
-        <img src={ircellLogo} style={{width:"145px", height:"auto", marginRight:"28vw"}} alt="International Relations Cell Logo" />
+        <img src={iithlogo} style={{width:"115vw", height:"auto", marginRight:"28vw"}} alt="International Relations Cell Logo" />
         <br />
        <NavDrawer />
       </div>

@@ -96,12 +96,12 @@ function MainHome(){
                         <br />
                     </span>
                     
-                    <span className="highlight">International <br></br>Relations Cell</span> <br />
+                    <span className="highlight">International <br></br>Relations</span> <br />
                     IIT Hyderabad
                 </h1>
                 <div className="buttons" style={{marginLeft:c}}>
                     <a onClick={handleScroll} className="about-us">About Us</a>
-                    <button className="top-vlogs">Top vlogs</button>
+                    <button className="top-vlogs" onClick={()=>toast("Coming Soon")}>Top vlogs</button>
                 </div>
                 
     

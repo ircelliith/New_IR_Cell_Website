@@ -113,7 +113,7 @@ const Partners = () => {
               >
                 <Box padding="10px">
                   <Text>
-                    {p.partnership || "Partnership details not available"}
+                    {p.partnership || "Partnership details coming soon"}
                   </Text>
                 </Box>
               </Collapse>
@@ -169,7 +169,7 @@ const Partners = () => {
               >
                 <Box padding="10px">
                   <Text>
-                    {pa.partnership || "Partnership details not available"}
+                    {pa.partnership || "Partnership details coming soon"}
                   </Text>
                 </Box>
               </Collapse>
@@ -226,7 +226,7 @@ const Partners = () => {
               >
                 <Box padding="10px">
                   <Text>
-                    {paa.partnership || "Partnership details not available"}
+                    {paa.partnership || "Partnership details coming soon"}
                   </Text>
                 </Box>
               </Collapse>

@@ -18,7 +18,7 @@ const SplashApp = () => {
         
         setTimeout(() => {
             setIsLoading(false);
-        }, 3000);
+        }, 2000);
     }, []);
 
     // Custom css for loader
