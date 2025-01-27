@@ -76,12 +76,7 @@ function MainHome(){
     let c=0;
     let b = "3rem";
 
-    if (isMobile) {
-        alert("This website is not optimized for mobile devices. Please use a desktop or a laptop for the best experience");
-        a = "2vw"
-        b="2rem"
-        c="4vw"
-    }
+    
     return (
         <div className="welcome-section" id="/welcome" style={{marginLeft:"10vw"}}>
             <div className="welcome-text">
