@@ -37,7 +37,7 @@ function App() {
     <AnimatePresence>
     <Router>
       <ChakraBaseProvider theme={theme}>
-        <AnimatedCursor
+        {/* <AnimatedCursor
           outerStyle={{
             border: "3px solid #ffffff",
             mixBlendMode: "difference",
@@ -73,7 +73,7 @@ function App() {
               },
             },
           ]}
-        />
+        /> */}
         <Routes>
 
           <Route path="/" element={<Home />} />
