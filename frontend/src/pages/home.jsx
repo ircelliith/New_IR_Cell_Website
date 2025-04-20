@@ -21,7 +21,7 @@ import tarun from "../components/images/tarun.png";
 import azmath from "../components/images/azmath.png";
 import pranitha from "../components/images/pranitha.png";
 import Reegan from "../components/images/Reegan.png";
-import homegall from "../components/images/homegall.png";
+import homegall from "../components/images/homegall1.png";
 
 import callicon from "../components/icons/callicon.png";
 import locicon from "../components/icons/locicon.png";
