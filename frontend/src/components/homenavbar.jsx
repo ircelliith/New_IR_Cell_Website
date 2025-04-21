@@ -121,6 +121,7 @@ const NavBar = () => {
           </MenuButton>
           <MenuList className='menulist'>
             <MenuItem className='menuitem'><a href="/jica">Japan International Cooperation Agency</a></MenuItem>
+            <MenuItem className='menuitem'><a href="https://www.iith.ac.in/japandesk/">JICA</a></MenuItem>
             </MenuList>
         </Menu>
 

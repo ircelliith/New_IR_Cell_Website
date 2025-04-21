@@ -93,6 +93,10 @@ function NavDrawer(){
                 <a href="/jica">-Japan International Cooperation Agency</a> <br />
                 <hr />
               </AccordionPanel>
+              <AccordionPanel>
+                <a href="https://www.iith.ac.in/japandesk/">-Japan Desk</a> <br />
+                <hr />
+              </AccordionPanel>
             </AccordionItem>
           </Accordion>
           <hr />
